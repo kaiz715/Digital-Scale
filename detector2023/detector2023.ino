@@ -95,40 +95,6 @@ void loop()
     
     mass = valToMass(cal_reading); //calculate mass
 
-
-
-    // janky manual calibration section
-//    if(mass > 750){
-//      mass -=2;
-//    }
-//    else if(mass >500){
-//      mass-=1;
-//    }
-//    else if(mass <200){
-//      mass+=1;
-//    }
-//    else if(mass <50){
-//      mass+=2;
-//    }
-    //
-//    if(mass > 500){
-//      mass *=1;
-//    }
-//    else if (mass < 100){
-//      mass -= 0;
-//    }
-//    else if (mass < 250){
-//      mass -= 0;
-//    }
-//    
-//    if(mass > 1000){
-//      mass = 991;
-//    }
-//    else if (mass < 0){
-//      mass = 10;
-//    }
-
-
     //print values
     Serial.print("uncal Reading: ");
     Serial.print(avg_reading,0);
