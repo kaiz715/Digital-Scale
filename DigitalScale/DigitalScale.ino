@@ -16,16 +16,15 @@ double offset = 0;
 #define BLUE_PIN 3
 #define GREEN_PIN 4
 
-//LED Stuff
-//change this section to match ranges given at the competition
-#define RED_MIN 47
-#define RED_MAX 621
+//LED Ranges
+#define RED_MIN -9999
+#define RED_MAX 0
 
-#define GREEN_MIN 332
-#define GREEN_MAX 735
+#define GREEN_MIN 0
+#define GREEN_MAX 1000
 
-#define BLUE_MIN 451
-#define BLUE_MAX 932
+#define BLUE_MIN 1000
+#define BLUE_MAX 999999
 
 //formula to convert voltage to mass
 double valToMass(double x)
@@ -70,11 +69,11 @@ void setup()
     }
     Serial.println("ADC detected");
 
-    adc.setGain(NAU7802_GAIN_128); //set gain to 1
+    adc.setGain(NAU7802_GAIN_128); //set gain to 128
     adc.setLDO(NAU7802_LDO_4V5); //set vref pin (pin 1) to 4.5V
     adc.setChannel(NAU7802_CHANNEL_1); //use channel 1
     delay(2000);
-    adc.calibrateAFE(); //calibrate stuff
+    adc.calibrateAFE(); //initial calibration
 }
 
 void loop()
