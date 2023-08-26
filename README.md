@@ -1,5 +1,5 @@
 # Digital-Scale
-Arduino code for a digital scale using the NAU 7802 ADC
+Arduino code for a digital scale using the NAU7802 ADC
 
 ## Pictures/Diagrams
 Note: The final scale enclosure is not pictured
