@@ -18,7 +18,7 @@ Note: The final scale enclosure is not pictured
 #### Load Cell
 - A 8in x ½ in x ½ in 2024 aluminum alloy bar has two holes milled into it with  a drill press
 - The centers of the holes are 0.7cm apart, and the holes toward the center of the bar length-wise and width-wise
-- 2024 Alloy was chosen for its resistance against hysteresis.
+- 2024 Alloy was chosen for its stress/strain properties and resistance against hysteresis.
 - On top of the milled holes, 4, 120 Ω strain gauges are superglued on in wheatstone bridge setup
 - The wires extending off of the strain gauges are soldered onto wire connection pads which are adhered to the metal bar with their own adhesives
 - This area (underneath the wires from the strain gauges soldered onto the connection pads) has tape on the underside to prevent wires from touching the metal bar
