@@ -10,6 +10,12 @@ Note: The final scale enclosure is not pictured
 ![Diagram 2](Photos/Detector-2.jpg)
 ![Diagram 3](Photos/Detector-3.jpg)
 
+#### Forces on the Load Cell: (Red is Tension, Blue is Compression)
+*The load cell that I manufactured is slightly different than the one modeled below, but the same concept applies.<br>
+The strain gauges change resistance based on the deformity due to tension/compression. 
+![Compression/Tension Diagram](Photos/load_cell_forces.png)
+2024 Alloy Alluminum was chosen for its stress/strain properties and resistance against hysteresis.
+
 #### Calibration:
 ![Charts](Photos/CalibrationCharts.png)
 ![Graph](Photos/CalibrationGraph.png)
@@ -18,7 +24,6 @@ Note: The final scale enclosure is not pictured
 #### Load Cell
 - A 8in x ½ in x ½ in 2024 aluminum alloy bar has two holes milled into it with  a drill press
 - The centers of the holes are 0.7cm apart, and the holes toward the center of the bar length-wise and width-wise
-- 2024 Alloy was chosen for its stress/strain properties and resistance against hysteresis.
 - On top of the milled holes, 4, 120 Ω strain gauges are superglued on in wheatstone bridge setup
 - The wires extending off of the strain gauges are soldered onto wire connection pads which are adhered to the metal bar with their own adhesives
 - This area (underneath the wires from the strain gauges soldered onto the connection pads) has tape on the underside to prevent wires from touching the metal bar
