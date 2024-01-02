@@ -2,7 +2,6 @@
 Arduino code for a digital scale using the NAU7802 ADC
 
 ## Pictures/Diagrams
-Note: The final scale enclosure is not pictured
 #### Sample Output:
 ![Output](Photos/output.png)
 #### Diagrams:
